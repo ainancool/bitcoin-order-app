@@ -1,8 +1,10 @@
 name: Bitcoin order App
+
 on:
   push:
     branches:
       - githubcicd
+  workflow_dispatch:
 jobs:
   ci:
     runs-on: ubuntu-latest
